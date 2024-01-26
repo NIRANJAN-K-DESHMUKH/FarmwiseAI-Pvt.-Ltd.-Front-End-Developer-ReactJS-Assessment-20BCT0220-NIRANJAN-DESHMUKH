@@ -1,0 +1,33 @@
+button {
+    border: 2px solid rgb(33, 33, 33);
+    border-radius: 5px;
+    background-color: rgb(199, 199, 199);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+select {
+    background-color: rgb(243, 192, 192);
+    border: 2px solid rgb(33, 33, 33);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 50px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    border: 2px solid rgb(33, 33, 33);
+    border-radius: 5px;
+    padding: 4px;   
+    margin: 20px;
+}
+/* 
+.fieldSelectWrapper, .addFieldButtonWrapper, .userTypeSelect {
+    flex:1;
+} */

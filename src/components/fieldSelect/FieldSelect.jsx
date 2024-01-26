@@ -2,7 +2,9 @@ import { useState } from "react";
 import DataValidationFields from "../dataValidationFields/DataValidationFields.jsx";
 
 
-const FieldSelect = () => {
+const FieldSelect = (userTypeProps) => {
+
+    const userType = userTypeProps.type;
 
     const [fieldType, setFieldType] = useState("");
 
@@ -22,7 +24,7 @@ const FieldSelect = () => {
             </select>
         </div>
         <span>
-            {fieldType !== "" ? <DataValidationFields key={fieldType} type={fieldType}/> : <></>}
+            {fieldType !== "" ? <DataValidationFields key={fieldType} fieldtype={fieldType} userType={userType}/> : <></>}
         </span>
     </div>
   );

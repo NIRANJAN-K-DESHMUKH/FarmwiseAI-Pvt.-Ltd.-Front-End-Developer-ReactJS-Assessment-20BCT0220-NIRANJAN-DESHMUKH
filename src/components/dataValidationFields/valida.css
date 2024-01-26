@@ -1,0 +1,21 @@
+.dataValidationFields {
+    display: flex;
+    flex-direction: row;
+}
+
+class1 {
+    flex:1;
+    margin-right: 25px;
+
+    padding: 0;
+}
+label{
+    margin-right: 35px;
+}
+input{
+    margin-left: 20px;
+}
+
+select{
+    margin-right: 35px;
+}
